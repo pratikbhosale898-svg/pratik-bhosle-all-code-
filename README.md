@@ -1,31 +1,67 @@
-# Unit I: Fundamentals of Object Oriented Programming
+# OOP-Cpp-Programming
 
-Foundational C++ programming and OOP basics: data types, control structures, arrays, functions, classes and objects, constructors/destructors, static members, inline functions, and friend functions.
+Semester repository for Object-Oriented Programming with C++. Programs are organized unit-wise and supplemented with unit-wise real-time applications and live examples.
 
-## Programs
+## Student Information
+- **Student Name:** Pratik Bhosle
+- **PRN:** 125UAD1256
+- **Class/Division:** S.Y (C)
+- **Programme:** B.Tech (AI&DS)
+- **Course Name:** Object-Oriented Programming with C++
+- **Course Code:** AD2305
+- **Semester:** III
+- **Language Standard:** C++17 or later
 
-| # | Program | Brief description |
-|---:|---|---|
-| 1 | Basic Data Types | Stores roll number, grade and fee using basic C++ data types. |
-| 2 | if-else | Uses if-else to determine pass/fail from marks. |
-| 3 | Loop and Array | Uses an array and for loop to display five student marks. |
-| 4 | Functions | Declares and uses a reusable addition function with a prototype. |
-| 5 | Class and Object | Models student details using a class, object, data members and a member function. |
-| 6 | Constructor and Destructor | Demonstrates constructor execution at object creation and destructor execution at object end. |
-| 7 | Static Member | Counts objects through a shared static data member. |
-| 8 | Inline and Friend Function | Demonstrates an inline getter and a friend function accessing private data. |
+## Units Covered
+- Unit I - Fundamentals of Object Oriented Programming
+- Unit II - Inheritance
+- Unit III - Polymorphism
 
-## Real-Time Applications
+> Current repository scope is Units I-III. Later semester units can be added without changing the repository.
 
-| # | Application |
-|---:|---|
-| 1 | Smart Agriculture Sensor Monitor |
-| 2 | Student Attendance Management System |
-| 3 | E-Commerce Product Catalog |
+## Repository Organization
+```text
+OOP-Cpp-Programming/
+├── README.md
+├── Unit-I/
+│   ├── Program_01/ ...
+│   ├── Real-Time-Applications/
+│   └── Mini-Project.md
+├── Unit-II/
+│   ├── Program_01/ ...
+│   ├── Real-Time-Applications/
+│   └── Mini-Project.md
+└── Unit-III/
+    ├── Program_01/ ...
+    ├── Real-Time-Applications/
+    └── Mini-Project.md
+```
 
-## Mini-Project
-- See `Mini-Project.md` in this unit for the supplied mini-project brief.
+## Program Listing
+See the README inside each unit for the complete program index and brief description.
 
-## Notes
-- Programs are based on the supplied unit code book.
-- C++17 or later is the intended standard.
+## Source Basis
+The repository programs are organized from the provided Unit I, Unit II, Unit III practical code books and the supplied Unit-Wise Real-Time Applications and Live Examples material. Minor extraction fixes are applied where PDF line wrapping would otherwise make a C++ program invalid, while retaining the intended logic and examples.
+
+## Build
+Windows/MinGW example:
+```bash
+g++ -std=c++17 program.cpp -o program.exe
+program.exe
+```
+
+## Submission Identity
+The repository is owned by the individual student account and is intended to remain accessible to faculty for evaluation.
+
+## Academic Program Count
+- Unit I: 8 programs
+- Unit II: 16 programs
+- Unit III: 16 programs
+- Real-time applications: 3 per unit (9 total)
+
+## Student Details for Submission
+- Student Name: Pratik Bhosle
+- PRN: 125UAD1256
+- Class/Division: S.Y (C)
+- Programme: B.Tech (AI&DS)
+- Course: Object-Oriented Programming with C++
