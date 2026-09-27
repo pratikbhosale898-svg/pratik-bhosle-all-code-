@@ -1,0 +1,35 @@
+// Program 08: Demonstrates base/derived constructor and destructor order.
+
+#include <iostream>
+
+
+class Base {
+public:
+     Base() {
+         std::cout << "Base constructor\n";
+     }
+
+
+     ~Base() {
+         std::cout << "Base destructor\n";
+     }
+};
+
+
+class Derived : public Base {
+public:
+     Derived() {
+         std::cout << "Derived constructor\n";
+     }
+
+
+     ~Derived() {
+         std::cout << "Derived destructor\n";
+     }
+};
+
+
+int main() {
+     Derived object;
+     return 0;
+}
